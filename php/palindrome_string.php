@@ -30,13 +30,11 @@ if($string_length==1 || ($string_length==2 && $string_to_lower[0]==$string_to_lo
 }
 if($isPalindrome){
     $result =[
-        "string" => $string,
         "polindrome"=>"true"
     ];
     
 }else{
     $result =[
-        "string" => $string,
         "polindrome"=>"false"
     ];
 }
