@@ -1,12 +1,12 @@
 <?php
 $string= $_GET['string'];
-$isPalindrome=false;
+$is_palindrome=false;
 // In order to change all the characters to lower case if there are on or more character in capital letter
 $string_to_lower=strtolower($string);
 $string_length = strlen($string);
 // In case the length of string is 1 or 2 with same characters, so, the string will be palindrome
 if($string_length==1 || ($string_length==2 && $string_to_lower[0]==$string_to_lower[1])){
-    $isPalindrome=true;
+    $is_palindrome=true;
 }else{
 // In order to see if the length of string is odd, so, we have to delete the middle character. And if it's even we kept it as it.
     if(strlen($string_to_lower)%2!=0){
@@ -25,10 +25,10 @@ if($string_length==1 || ($string_length==2 && $string_to_lower[0]==$string_to_lo
     }
     // Check if first part is equal to second part
     if(strcmp($first_part, $second_part)== 0){
-        $isPalindrome=true;
+        $is_palindrome=true;
     }
 }
-if($isPalindrome){
+if($is_palindrome){
     $result =[
         "polindrome"=>"true"
     ];
