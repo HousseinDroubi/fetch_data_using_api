@@ -12,12 +12,3 @@ let checkPolindrome = (e) =>{
   });
 }
 btn_polindrome.addEventListener("click",checkPolindrome);
-
-
-// Get the json request from url and fill image
-// fetch('https://dog.ceo/api/breeds/image/random')
-// .then((response) => response.json())
-// .then((data) => {
-//     // let image_content=Object.values(data)[0];
-//     // dog_image.innerHTML='<img src= "'+image_content+'"/>';
-//   });
