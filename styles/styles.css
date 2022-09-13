@@ -1,3 +1,61 @@
-body{
-    background-color: red;
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
+img {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+/*  */
+
+/* Hero */
+.hero {
+    background: url("../images/GettyImages-1216520737-scaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+}
+/* Nav bar */
+.nav-bar{
+    height: 10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar>p{
+    height:5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    background-color: #021943;
+    color:white;
+    font-size: 2vw;
+    border-style: double;
+    border-color: white;
+}
+/* First API */
+.first-api{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+/* Utilises */
+.container{
+    width: 100%;
+}
+/* 
+#021943
+#2c83d2
+*/
